@@ -31,5 +31,7 @@ class Solution {
         }
         
         return new int[]{0, 0}; 
+        // we can go lef tto right because order doesn't matter, you 
+        //could get ot the end and still find the same pair which would still work
     }
 }

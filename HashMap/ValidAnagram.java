@@ -11,6 +11,8 @@ class Solution {
         for(char c: t.toCharArray()){
             if(gyat.containsKey(c)){
                 gyat.put(c, gyat.get(c) - 1);
+            } else {
+                return false;
             }
         }
         for(char count: gyat.keySet()){
