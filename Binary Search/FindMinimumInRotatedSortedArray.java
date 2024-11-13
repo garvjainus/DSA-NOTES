@@ -19,6 +19,8 @@ class Solution {
         while(l <= r){
             if(nums[l] < nums[r]){
                 lowVal = Math.min(lowVal, nums[l]);
+            } else {
+                lowVal = Math.min(lowVal, nums[r]);
             }
             int mid = l + (r -l)/2;
             lowVal = Math.min(lowVal,nums[mid]);
