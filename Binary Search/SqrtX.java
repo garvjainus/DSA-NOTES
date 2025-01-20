@@ -13,6 +13,6 @@ class Solution {
                 left = mid + 1;
             }
         }
-        return right; //smallest number with square less than or equal to x, because at last iteration (left <= right) right is moved to the left so that the loop can end, meaning that right stores the last number that was less than or equal to x
+        return right; //smallest nu mber with square less than or equal to x, because at last iteration (left <= right) right is moved to the left so that the loop can end, meaning that right stores the last number that was less than or equal to x
     }
 }
